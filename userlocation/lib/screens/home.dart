@@ -27,12 +27,10 @@ class _HomeScreenState extends State<HomeScreen> {
         children: <Widget>[
           Padding(
             padding: const EdgeInsets.only(top: 20.0),
-            child: Container(
-              child: Text(
-                'Enable your location ! \nFor better live shipping experience',
-                style: GoogleFonts.secularOne(
-                  fontSize: 20,
-                ),
+            child: Text(
+              'Enable your location ! \nFor better live shipping experience',
+              style: GoogleFonts.secularOne(
+                fontSize: 20,
               ),
             ),
           ),
